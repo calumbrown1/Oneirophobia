@@ -10,7 +10,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Nightmares/Level1.unity
   - enabled: 1
-    path: Assets/Scenes/Nightmares/Level2.unity
+    path: Assets/Scenes/Nightmares/Megalophobia.unity
   - enabled: 1
     path: Assets/Scenes/Nightmares/Level3.unity
   - enabled: 1

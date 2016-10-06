@@ -11,6 +11,6 @@ public class MenuControllerScript : MonoBehaviour {
 
     public void LoadLevel2()
     {
-        SceneManager.LoadScene("Level2");
+        SceneManager.LoadScene("Megalophobia");
     }
 }
