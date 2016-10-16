@@ -189,7 +189,7 @@ Transform:
   m_LocalScale: {x: 2, y: 10, z: 2}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 3
+  m_RootOrder: 10
 --- !u!23 &83933053
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -264,7 +264,7 @@ Transform:
   m_LocalScale: {x: 2, y: 15, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 6
+  m_RootOrder: 5
 --- !u!23 &132918656
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -460,7 +460,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 9
+  m_RootOrder: 11
 --- !u!23 &285369666
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -535,7 +535,7 @@ Transform:
   m_LocalScale: {x: 2, y: 10, z: 2}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 4
+  m_RootOrder: 8
 --- !u!23 &325102894
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -712,16 +712,16 @@ Transform:
   m_Children:
   - {fileID: 1111964558}
   - {fileID: 1423504888}
-  - {fileID: 1675754873}
-  - {fileID: 83933052}
-  - {fileID: 325102893}
   - {fileID: 1495126634}
-  - {fileID: 132918655}
   - {fileID: 885282374}
-  - {fileID: 795591190}
-  - {fileID: 285369665}
   - {fileID: 979390327}
+  - {fileID: 132918655}
   - {fileID: 979324813}
+  - {fileID: 1675754873}
+  - {fileID: 325102893}
+  - {fileID: 795591190}
+  - {fileID: 83933052}
+  - {fileID: 285369665}
   m_Father: {fileID: 0}
   m_RootOrder: 9
 --- !u!114 &501935015
@@ -826,7 +826,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 8
+  m_RootOrder: 9
 --- !u!23 &795591191
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -901,7 +901,7 @@ Transform:
   m_LocalScale: {x: 2, y: 15, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 7
+  m_RootOrder: 3
 --- !u!23 &885282375
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1051,7 +1051,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 11
+  m_RootOrder: 6
 --- !u!23 &979324814
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1126,7 +1126,7 @@ Transform:
   m_LocalScale: {x: 2, y: 2, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 10
+  m_RootOrder: 4
 --- !u!23 &979390328
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1501,7 +1501,7 @@ Transform:
   m_LocalScale: {x: 7, y: 11, z: 4}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 5
+  m_RootOrder: 2
 --- !u!23 &1495126635
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -1576,7 +1576,7 @@ Transform:
   m_LocalScale: {x: 6, y: 3, z: 3}
   m_Children: []
   m_Father: {fileID: 501935014}
-  m_RootOrder: 2
+  m_RootOrder: 7
 --- !u!23 &1675754874
 MeshRenderer:
   m_ObjectHideFlags: 0
