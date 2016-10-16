@@ -26,14 +26,27 @@ public class PlayerScript : MonoBehaviour
         {
             Death();
         }
+
+        if (col.tag == "VictoryTrigger")
+        {
+            Victory();
+        }
     }
 
     /// <summary>
     /// This kills the player.
     /// When one of the defeat conditions is met, this method is triggered.
     /// </summary>
-    public void Death()
+    void Death()
     {
         print("Player has died.");
+    }
+
+    /// <summary>
+    /// When the player meets the victory condition, this method is triggered.
+    /// </summary>
+    void Victory()
+    {
+        print("Player wins.");
     }
 }
