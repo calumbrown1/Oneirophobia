@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class PlayerScript : MonoBehaviour
 {
@@ -48,5 +49,6 @@ public class PlayerScript : MonoBehaviour
     void Victory()
     {
         print("Player wins.");
+        SceneManager.LoadScene("Menu");
     }
 }
