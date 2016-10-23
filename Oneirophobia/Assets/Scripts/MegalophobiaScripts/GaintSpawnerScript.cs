@@ -9,26 +9,34 @@ public class GaintSpawnerScript : MonoBehaviour
     //The giant prefab model to instantiate.
     public GameObject GiantModel;
 
-	// Use this for initialization
-	void Start ()
+    //A float, in seconds, of how frequently giants are spawned.
+    public float GiantSpawnTime;
+
+    //The min and max X locations for the giant's to spawn.  Should be between -24 and 24.
+    public float LowerXSpawnBound;
+    public float HigherXSpawnBound;
+
+    // Use this for initialization
+    void Start ()
     {
-	    
-	}
-	
-	// Update is called once per frame
-	void Update ()
+        //Spawn an endless horde of giants every some seconds.
+        InvokeRepeating("SpawnGiant", GiantSpawnTime, GiantSpawnTime);
+    }
+
+    // Update is called once per frame
+    void Update()
     {
-	
-	}
+        
+    }
 
     //This script will spawn giants.  Gaints spawn at the Z position of the spawner, Y 28, and a random X. 
     //A gaint should spawn every 5 seconds.
     void SpawnGiant()
     {
         float randomX;
-        randomX = Random.Range(-24, -24);
-
+        randomX = Random.Range(LowerXSpawnBound, HigherXSpawnBound);
         Vector3 spawnPoint = new Vector3(randomX, GiantSpawnHeight, transform.position.z);
+
         Instantiate(GiantModel, spawnPoint, Quaternion.identity);
     }
 }

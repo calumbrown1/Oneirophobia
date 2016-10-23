@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GaintMovementScript : MonoBehaviour
+public class GaintScript : MonoBehaviour
 {
     //Giant walking speed.
     public float walkingSpeed;
@@ -11,11 +11,11 @@ public class GaintMovementScript : MonoBehaviour
     {
 	
 	}
-	
-	// Update is called once per frame
-	void Update ()
+
+    // Update is called once per frame
+    void Update()
     {
         //Move forward.
-        transform.position += transform.forward * Time.deltaTime * walkingSpeed;
-	}
+        transform.position += -transform.forward * Time.deltaTime * walkingSpeed;
+    }
 }
