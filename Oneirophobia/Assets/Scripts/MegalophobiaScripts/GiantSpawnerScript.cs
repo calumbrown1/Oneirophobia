@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GaintSpawnerScript : MonoBehaviour
+public class GiantSpawnerScript : MonoBehaviour
 {
     //This represents the gaint's height.  The giant's spawn at the positions of their heads, which is currently 28 units up.
     public float GiantSpawnHeight;

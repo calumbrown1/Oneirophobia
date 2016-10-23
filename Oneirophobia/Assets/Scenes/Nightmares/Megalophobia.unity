@@ -41,7 +41,7 @@ RenderSettings:
 LightmapSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 6
-  m_GIWorkflowMode: 1
+  m_GIWorkflowMode: 0
   m_LightmapsMode: 1
   m_GISettings:
     serializedVersion: 2
@@ -570,7 +570,7 @@ GameObject:
   - 4: {fileID: 1691888080}
   - 114: {fileID: 1691888079}
   m_Layer: 0
-  m_Name: GaintSpawner
+  m_Name: GiantSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -589,8 +589,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GiantSpawnHeight: 28
   GiantModel: {fileID: 117598, guid: 7dbe59eec3e375a46b12ca2abf6e576b, type: 2}
-  GiantSpawnTime: 1.5
-  LowerXSpawnBound: 1
+  GiantSpawnTime: 2
+  LowerXSpawnBound: 2
   HigherXSpawnBound: 24
 --- !u!4 &1691888080
 Transform:
@@ -603,7 +603,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 7
 --- !u!1 &1817831444 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 2}
@@ -704,7 +704,7 @@ GameObject:
   - 4: {fileID: 2121336997}
   - 114: {fileID: 2121336996}
   m_Layer: 0
-  m_Name: GaintSpawner
+  m_Name: GiantSpawner
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -723,9 +723,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   GiantSpawnHeight: 28
   GiantModel: {fileID: 117598, guid: 7dbe59eec3e375a46b12ca2abf6e576b, type: 2}
-  GiantSpawnTime: 1.5
+  GiantSpawnTime: 2
   LowerXSpawnBound: -24
-  HigherXSpawnBound: -1
+  HigherXSpawnBound: -2
 --- !u!4 &2121336997
 Transform:
   m_ObjectHideFlags: 0

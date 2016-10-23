@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class GaintScript : MonoBehaviour
+public class GiantScript : MonoBehaviour
 {
     //Giant walking speed.
     public float walkingSpeed;

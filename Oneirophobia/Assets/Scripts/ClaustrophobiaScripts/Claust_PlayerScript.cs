@@ -2,7 +2,7 @@
 using System.Collections;
 using UnityEngine.SceneManagement;
 
-public class PlayerScript : MonoBehaviour
+public class Claust_PlayerScript : MonoBehaviour
 {
 	// Use this for initialization
 	void Start ()
@@ -28,6 +28,11 @@ public class PlayerScript : MonoBehaviour
             Death();
         }
 
+        if (col.tag == "TriggerArea")
+        {
+            col.GetComponent<TriggerAreaScript>().TriggerAllWalls();
+        }
+
         if (col.tag == "VictoryTrigger")
         {
             Victory();
@@ -51,4 +56,5 @@ public class PlayerScript : MonoBehaviour
         print("Player wins.");
         SceneManager.LoadScene("Menu");
     }
+
 }
